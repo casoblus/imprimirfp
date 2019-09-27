@@ -1,0 +1,103 @@
+#main {
+  width: 16.5cm;
+  line-height: 1.5;
+  font-family: serif;
+}
+h3, h2, h1, h4, h5, h6 {
+  color: black !important;
+  border-color: black !important;
+  font-family: sans-serif;
+}
+h1{
+  text-align: center !important;
+  border-bottom: 0;
+}
+.emphasis_casopracticofpd,
+#id71.DestacadofpdIdevice {
+  display: none;
+  font-style: italic;
+  font-style: oblique;
+}
+
+.emphasis_autoevaluacionfpd,
+.emphasis_parasabermasfpd,
+.emphasis_citasparapensarfpd,
+.emphasis_debesconocerfpd,
+.emphasis_reflexionfpd,
+.iDevice_destacadofpd
+{
+  border: 2px solid black;
+  border-radius: 0;
+  background: unset;
+  color: black;
+  page-break-inside: avoid;
+  page-break-before: auto;
+}
+.emphasis_casopracticofpd div img {
+  display: none;
+}
+a {
+  color: black;
+  text-decoration: underline;
+  font-style: oblique; 
+} 
+.iDeviceTitle {
+  color: black !important;
+  background: unset !important;
+}
+
+.glosario {
+  color: black;
+  padding: unset;
+  background: unset;
+  text-decoration: underline;
+}
+.glosario:after {
+  content: '*';
+}
+.iDevice_destacadofpd{
+  background: #DDD;
+  color:black;
+}
+.lista_verificacion li{
+  list-style: circle;
+}
+.tabla{
+  clear: both;
+}
+.tabla thead th,
+.tabla tbody th {
+  background-color: silver;
+  color: black;
+}
+.tabla thead th,
+.tabla tbody th,
+.tabla td {
+  border: 1px solid gray;
+  font-family: sans-serif;
+}
+h1,
+.node {
+  page-break-after: always;
+}
+/* Que no se corten las tablas */
+table ,
+.SeleccionmultiplefpdIdevice{
+  page-break-before: auto;
+}
+.elemento_derecha {
+  float:unset;
+  text-align: center;
+}
+.imagen_ampliable{
+  width: auto;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+/* oculta el anexo de licencias */
+.node:last-of-type{
+  display: none;
+}
+
+

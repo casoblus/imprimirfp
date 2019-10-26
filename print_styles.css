@@ -2,6 +2,10 @@
   width: 16.5cm;
   line-height: 1.5;
   font-family: serif;
+  overflow: hidden;
+}
+* {
+  max-width: 16.5cm !important;
 }
 
 h3, h2, h1, h4, h5, h6 {
@@ -121,5 +125,3 @@ table ,
 .node:last-of-type{
   display: none;
 }
-
-

@@ -100,7 +100,7 @@ a {
 
 h1,
 .node {
-  page-break-after: always;
+  page-break-after: auto;
 }
 
 /* Que no se corten las tablas */
